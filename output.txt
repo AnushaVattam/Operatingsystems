@@ -1,0 +1,8 @@
+a.out
+Assignment2.cpp
+find
+find.c
+fred.c
+input.txt
+output.txt
+readme.txt

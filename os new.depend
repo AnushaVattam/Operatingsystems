@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1444263352 source:c:\users\anusha\desktop\os projects\os\assignment2\proj2.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<sys/types.h>
+	<signal.h>
+	<unistd.h>
+	<ctype.h>
+	<fcntl.h>
+	<sys/stat.h>
+

@@ -1,0 +1,131 @@
+Enter a number(1-8) of frames:8
+Enter the length (1 - 30) of reference string to genera
+
+ Enter reference stream separated with space:
+1 4 6 6 7 8 9 0 5
+you have entered the below reference stream
+1 4 6 6 7 8 9 0 5
+
+
+ MFU Algorithm
+Ref# *1 Not found
+[1][ ][ ][ ][ ][ ][ ][ ]
+
+Ref# *4 Not Found
+[1][4][ ][ ][ ][ ][ ][ ]
+
+Ref# *6 Not Found
+[1][4][6][ ][ ][ ][ ][ ]
+
+Ref# 6 Found
+[1][4][6][ ][ ][ ][ ][ ]
+
+Ref# *7 Not Found
+[1][4][6][7][ ][ ][ ][ ]
+
+Ref# *8 Not Found
+[1][4][6][7][8][ ][ ][ ]
+
+Ref# *9 Not Found
+[1][4][6][7][8][9][ ][ ]
+
+Ref# *0 Not Found
+[1][4][6][7][8][9][0][ ]
+
+Ref# *5 Not Found
+[1][4][6][7][8][9][0][5]
+
+Number of page fault for MFU: 8
+
+ LFU Algorithm
+Ref# *1 Not found
+[1][ ][ ][ ][ ][ ][ ][ ]
+
+Ref# *4 Not Found
+[1][4][ ][ ][ ][ ][ ][ ]
+
+Ref# *6 Not Found
+[1][4][6][ ][ ][ ][ ][ ]
+
+Ref# 6 Found
+[1][4][6][ ][ ][ ][ ][ ]
+
+Ref# *7 Not Found
+[1][4][6][7][ ][ ][ ][ ]
+
+Ref# *8 Not Found
+[1][4][6][7][8][ ][ ][ ]
+
+Ref# *9 Not Found
+[1][4][6][7][8][9][ ][ ]
+
+Ref# *0 Not Found
+[1][4][6][7][8][9][0][ ]
+
+Ref# *5 Not Found
+[1][4][6][7][8][9][0][5]
+
+ page faults of LFU: 8
+
+ LRU Algorithm
+Ref# *1 Not found
+[1][ ][ ][ ][ ][ ][ ][ ]
+
+Ref# *4 Not Found
+[1][4][ ][ ][ ][ ][ ][ ]
+
+Ref# *6 Not Found
+[1][4][6][ ][ ][ ][ ][ ]
+
+Ref# 6 Found
+[1][4][6][ ][ ][ ][ ][ ]
+
+Ref# *7 Not Found
+[1][4][6][7][ ][ ][ ][ ]
+
+Ref# *8 Not Found
+[1][4][6][7][8][ ][ ][ ]
+
+Ref# *9 Not Found
+[1][4][6][7][8][9][ ][ ]
+
+Ref# *0 Not Found
+[1][4][6][7][8][9][0][ ]
+
+Ref# *5 Not Found
+[1][4][6][7][8][9][0][5]
+
+Number of page fault of LRU: 8
+
+ Optimal Algorithm
+Ref# *1 Not Found
+[1][ ][ ][ ][ ][ ][ ][ ]
+
+Ref# *4  Not Found
+[1][4][ ][ ][ ][ ][ ][ ]
+
+Ref# *6  Not Found
+[1][4][6][ ][ ][ ][ ][ ]
+
+Ref# 6 Found
+[1][4][6][ ][ ][ ][ ][ ]
+
+Ref# *7  Not Found
+[1][4][6][7][ ][ ][ ][ ]
+
+Ref# *8  Not Found
+[1][4][6][7][8][ ][ ][ ]
+
+Ref# *9  Not Found
+[1][4][6][7][8][9][ ][ ]
+
+Ref# *0  Not Found
+[1][4][6][7][8][9][0][ ]
+
+Ref# *5  Not Found
+[1][4][6][7][8][9][0][5]
+
+page faults of Optimal: 8
+
+Process returned 0 (0x0)   execution time : 25.095 s
+Press any key to continue.
